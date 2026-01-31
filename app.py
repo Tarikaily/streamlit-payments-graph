@@ -13,7 +13,7 @@ st.markdown("Detects suspicious blockchain blocks using percentile-based analysi
 # =========================
 # STEP 1: LOAD DATA
 # =========================
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data.csv.gz")
 df.columns = df.columns.str.strip()
 
 st.success("✅ Data Loaded Successfully")
